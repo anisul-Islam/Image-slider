@@ -1,9 +1,8 @@
-/* */
 const icons = document.querySelectorAll('.image-icon i');
 
 let i = 1;
 
-setInterval(() => {
+setInterval ( () => {
     i++;
 
     const icon = document.querySelector('.image-icon .slide');
@@ -14,4 +13,4 @@ setInterval(() => {
         i = 1;
     }
     icon.nextElementSibling.classList.add('slide');
-}, 3000);
+}, 2000);

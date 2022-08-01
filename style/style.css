@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,11 +9,13 @@
 html {
     font-size: 62.5%;
 }
-
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+}
 .section-content {
     width: 100%;
     height: 100vh;
-    background-color: #333;
+    background-color: #528080;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,21 +23,30 @@ html {
 }
 
 .Slider-title {
-    font-size: 10rem;
+    font-size: 7.5rem;
     font-weight: 900;
     letter-spacing: 0.35rem;
     color: #fff;
-    text-shadow: .2rem .3rem .3rem #000;
+    text-shadow: -.2rem .3rem .2rem rgba(0, 0, 0, 0.6), .2rem -.3rem .2rem rgba(0, 0, 0, 0.6);
 }
 
 .image-icon i {
     font-size: 25rem;
     color: #7FEBFF;
     position: absolute;
+    text-shadow: -.2rem .3rem .2rem rgba(0, 0, 0, 0.6), .2rem -.3rem .2rem rgba(0, 0, 0, 0.6);
     transform: translate(-50%, -50%)scale(0);
-    text-shadow: .2rem .3rem .3rem #000;
+    -webkit-transform: translate(-50%, -50%)scale(0);
+    -moz-transform: translate(-50%, -50%)scale(0);
+    -ms-transform: translate(-50%, -50%)scale(0);
+    -o-transform: translate(-50%, -50%)scale(0);
 }
 
 .image-icon i.slide {
     transform: translate(-50%, -50%)scale(1);
+}
+.section-content .subtitle{
+    margin-top: 1.5rem;
+    color: #ffffff;
+    font-size: 2rem;
 }
