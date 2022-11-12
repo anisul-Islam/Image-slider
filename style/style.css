@@ -8,7 +8,7 @@ html {
     font-size: 62.5%;
 }
 
-.section-content {
+.section__content{
     width: 100%;
     height: 100vh;
     background-color: #333;
@@ -18,7 +18,7 @@ html {
     justify-content: space-evenly;
 }
 
-.Slider-title {
+.slider__title{
     font-size: 10rem;
     font-weight: 900;
     letter-spacing: 0.35rem;
