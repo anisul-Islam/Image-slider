@@ -1,4 +1,5 @@
 /* */
+console.log("hello world");
 const icons = document.querySelectorAll('.image-icon i');
 
 let i = 1;
