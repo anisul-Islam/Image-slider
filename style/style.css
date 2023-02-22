@@ -1,39 +1,43 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 .section-content {
-    width: 100%;
-    height: 100vh;
-    background-color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .Slider-title {
-    font-size: 10rem;
-    font-weight: 900;
-    letter-spacing: 0.35rem;
-    color: #fff;
-    text-shadow: .2rem .3rem .3rem #000;
+  font-size: 10rem;
+  font-weight: 900;
+  letter-spacing: 0.35rem;
+  color: #fff;
+  text-shadow: 0.2rem 0.3rem 0.3rem #000;
 }
 
 .image-icon i {
-    font-size: 25rem;
-    color: #7FEBFF;
-    position: absolute;
-    transform: translate(-50%, -50%)scale(0);
-    text-shadow: .2rem .3rem .3rem #000;
+  font-size: 25rem;
+  color: #7febff;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0);
+  text-shadow: 0.2rem 0.3rem 0.3rem #000;
 }
 
 .image-icon i.slide {
-    transform: translate(-50%, -50%)scale(1);
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.footer h1 {
+  color: #fff;
 }
