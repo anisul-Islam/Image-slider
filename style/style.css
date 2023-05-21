@@ -10,7 +10,7 @@ html {
 
 .section-content {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-color: #333;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ html {
 }
 
 .image-icon i {
-    font-size: 25rem;
+    font-size: 15rem;
     color: #7FEBFF;
     position: absolute;
     transform: translate(-50%, -50%)scale(0);
@@ -36,4 +36,26 @@ html {
 
 .image-icon i.slide {
     transform: translate(-50%, -50%)scale(1);
+}
+.loading-anim{
+    width: 150px;
+    height: 150px;
+    border: 10px solid dodgerblue;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation: myAnim 0.8s linear infinite;
+    border-top: 10px solid crimson;
+}
+.loading-title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+@keyframes myAnim {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
