@@ -37,3 +37,10 @@ html {
 .image-icon i.slide {
     transform: translate(-50%, -50%)scale(1);
 }
+
+/* rimon hossain added this style  */
+.footer-text {
+    padding: 15px;
+    background-color: coral;
+    color: #323030;
+}
