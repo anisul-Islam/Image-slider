@@ -15,3 +15,6 @@ setInterval(() => {
     }
     icon.nextElementSibling.classList.add('slide');
 }, 3000);
+let x = 'tarek';
+let y = "monowar";
+console.log(x,y)
