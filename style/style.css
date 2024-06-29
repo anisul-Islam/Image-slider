@@ -37,3 +37,7 @@ html {
 .image-icon i.slide {
     transform: translate(-50%, -50%)scale(1);
 }
+
+.box > h1{
+    color: white;
+}
